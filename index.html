@@ -6,12 +6,19 @@
   <title>The Greens Bangladesh</title>
 </head>
 <body>
- <img src="home-1440px.jpg" alt="Custom Image"
-     srcset="home-320px.jpg 320w, 
-             home-480px.jpg 480w, 
-             home-768px.jpg 768w, 
-             home-960px.jpg 2x, 
-             home-1440px.jpg 3x"
-     sizes="100vw" style="max-width: 100%; height: auto;">
+  <img 
+    src="home-768px.jpg" 
+    alt="Custom Image"
+    srcset="home-320px.jpg 320w, 
+            home-480px.jpg 480w, 
+            home-768px.jpg 768w, 
+            home-960px.jpg 2x, 
+            home-1440px.jpg 3x" 
+    sizes="(max-width: 320px) 100vw, 
+           (max-width: 480px) 100vw, 
+           (max-width: 768px) 100vw, 
+           (max-width: 1024px) 50vw, 
+           33vw"
+    style="max-width: 100%; height: auto;">
 </body>
 </html>
